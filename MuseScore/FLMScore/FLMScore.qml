@@ -9,8 +9,8 @@ MuseScore {
 
     FileIO {
             id: outfile
-            // UPDATE THE FOLLOWING PATH TO THE PIANO ROLL SCRIPTS FOLDER IN YOUR OWN FL STUDIO INSTALLTION. KEEP THE FILENAME THE SAME ("FLMScoreComm.txt").
-            source: "Z:/Programs/FL Studio BETA/System/Config/Piano roll scripts/FLMScoreComm.txt"
+            
+            source: "C:\Users\kitty\OneDrive\Documents\Image-Line\FL Studio\Settings\Piano roll scripts\FLMScoreComm.txt"
             onError: console.log(msg)
     }  
 
